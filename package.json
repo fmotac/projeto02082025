@@ -1,11 +1,23 @@
 {
   "name": "ola-mundo-azure",
   "version": "1.0.0",
-  "description": "Aplicação Node.js simples para Azure",
+  "description": "Aplicação simples Olá Mundo para Microsoft Azure",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "dev": "node app.js"
   },
-  "author": "",
-  "license": "MIT"
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "nodejs",
+    "azure",
+    "hello-world"
+  ],
+  "author": "fmotac",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
 }
