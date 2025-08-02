@@ -1,0 +1,11 @@
+{
+  "name": "ola-mundo-azure",
+  "version": "1.0.0",
+  "description": "Aplicação Node.js simples para Azure",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
